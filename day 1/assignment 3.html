@@ -1,0 +1,17 @@
+<html>
+<head>
+    <h1>Assignment 3</h1>
+</head>
+<body>
+    <h2>Date</h2>
+    <script>
+        var myDate = new Date(),
+            day = myDate.getDate(),
+            month = myDate.getMonth() + 1,
+            year = myDate.getFullYear();
+            day = day < 10 ? '0' + day : day;
+            month = month < 10 ? '0' + month : month;
+        document.write("Current Date is: " + day + "/" + month + "/" + year)
+    </script>
+</body>
+</html>
