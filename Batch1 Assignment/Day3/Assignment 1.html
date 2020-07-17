@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 1</title>
+    <script>
+        function check(n)
+        {
+            if(n%2==0)
+            {
+                return "Even";
+            }
+            else if(n%2==1)
+                return "Odd";
+            else    
+                return "INVALID"
+        }
+    </script>
+</head>
+<body>
+    <h1>checks if the number entered is odd or even</h1>
+    <script>
+        let num = +prompt("Enter a Number");
+        let res = `The Number entered is ${num} and Number is `+check(num)
+        console.log(res)
+    </script>
+</body>
+</html>
