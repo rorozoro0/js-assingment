@@ -1,11 +1,36 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+   <title>Assignment 4</title>
 </head>
-<body>
-    
-</body>
+    <body>
+        <h2>Question 4: Make a Calculator in Javascript which can do operations as Addition, Subtraction, Multiplication, Division, Square root, Percentage.</h2>
+    <script>
+        console.log("Calculator");
+        var operation = window.prompt("Enter the operator:( For Squareroot input value in num1 only)",'Ex.: + for addition');    
+        var num1 = +window.prompt("Enter the 1st number:"); console.log(num1);
+        var num2 = +window.prompt("Enter the 2nd number:"); console.log(num2);
+        switch(operation)
+        {
+                case'+':
+                console.log(num1+num2);
+                break;
+                case'-':
+                console.log(num1-num2);
+                break;
+                case'*':
+                console.log(num1*num2);
+                break;
+                case'/':
+                console.log(num1/num2);
+                break;
+                case'**':
+                console.log(num1**2);
+                break;
+                case'%':
+                console.log(num1%num2);
+                break;
+        }
+                
+     </script>
+    </body>
 </html>
