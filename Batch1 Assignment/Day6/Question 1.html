@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 1</title>
+    <script type="text/javascript">
+        let color = ["grey", "gold", "Violet", "teal"];
+        let i = 0;
+        function changebgcolor() {
+          document.body.style.backgroundColor = color[i];
+          i = (i+1) % color.length;
+        }
+        setInterval(changebgcolor, 5000);   
+      
+      </script>
+      
+      <body onload="changebgcolor()">
+        <h1 style="text-align: center;">Changing background color</h1>   
+        
+      </body>
+</html>
